@@ -1,0 +1,93 @@
+/* http://work.smarchal.com/twbscolor/css/42a5f51c4c73ffffffffffff0 */
+
+.navbar-iod {
+  background-color: white;
+  border-color: #f5f5f5;
+  margin-bottom: 0px;
+}
+.navbar-iod .navbar-brand {
+  color: black;
+}
+.navbar-iod .navbar-brand:hover,
+.navbar-iod .navbar-brand:focus {
+  color: #ffffff;
+}
+.navbar-iod .navbar-text {
+  color: #ffffff;
+}
+.navbar-iod .navbar-nav > li > a {
+  color: black;
+}
+.navbar-iod .navbar-nav > li > a:hover,
+.navbar-iod .navbar-nav > li > a:focus {
+  color: #ffffff;
+  background-color: #1c4c73;
+}
+.navbar-iod .navbar-nav > li > .dropdown-menu {
+  background-color: white;
+}
+.navbar-iod .navbar-nav > li > .dropdown-menu > li > a {
+  color: black;
+}
+.navbar-iod .navbar-nav > li > .dropdown-menu > li > a:hover,
+.navbar-iod .navbar-nav > li > .dropdown-menu > li > a:focus {
+  color: #ffffff;
+  background-color: #1c4c73;
+}
+.navbar-iod .navbar-nav > li > .dropdown-menu > li > .divider {
+  background-color: #1c4c73;
+}
+.navbar-iod .navbar-nav .open .dropdown-menu > .active > a,
+.navbar-iod .navbar-nav .open .dropdown-menu > .active > a:hover,
+.navbar-iod .navbar-nav .open .dropdown-menu > .active > a:focus {
+  color: #ffffff;
+  background-color: #1c4c73;
+}
+.navbar-iod .navbar-nav > .active > a,
+.navbar-iod .navbar-nav > .active > a:hover,
+.navbar-iod .navbar-nav > .active > a:focus {
+  color: #ffffff;
+  background-color: #1c4c73;
+}
+.navbar-iod .navbar-nav > .open > a,
+.navbar-iod .navbar-nav > .open > a:hover,
+.navbar-iod .navbar-nav > .open > a:focus {
+  color: #ffffff;
+  background-color: #1c4c73;
+}
+.navbar-iod .navbar-toggle {
+  border-color: #1c4c73;
+}
+.navbar-iod .navbar-toggle:hover,
+.navbar-iod .navbar-toggle:focus {
+  background-color: #1c4c73;
+}
+.navbar-iod .navbar-toggle .icon-bar {
+  background-color: #ffffff;
+}
+.navbar-iod .navbar-collapse,
+.navbar-iod .navbar-form {
+  border-color: #ffffff;
+}
+.navbar-iod .navbar-link {
+  color: #ffffff;
+}
+.navbar-iod .navbar-link:hover {
+  color: #ffffff;
+}
+
+@media (max-width: 767px) {
+  .navbar-iod .navbar-nav .open .dropdown-menu > li > a {
+    color: #ffffff;
+  }
+  .navbar-iod .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-iod .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #ffffff;
+  }
+  .navbar-iod .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-iod .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-iod .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #ffffff;
+    background-color: #1c4c73;
+  }
+}

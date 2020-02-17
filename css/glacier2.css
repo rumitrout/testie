@@ -1,0 +1,422 @@
+.page-container {
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+/* Dashboard */
+
+.dashboard-row {
+    margin: 3em;
+}
+
+.dashboard-item {
+    background-color: #e9f3f9;
+    width: 48px;
+    height: 48px;
+    border-radius: 24px;
+    display: flex;
+    align-items: center;
+}
+
+.dashboard-item-inner {
+    width: 100%;
+    text-align: center;
+}
+
+/* Common */
+
+a, a:hover {
+    color: #00A;
+}
+
+a.plain-link {
+    color: inherit;
+}
+
+a.plain-link:hover {
+    color: inherit;
+}
+
+h2 {
+    color: #4d6c73;
+}
+
+.breadcrumb {
+    background-color: #e9f3f9;
+}
+
+.margin-top {
+    margin-top: 1em !important;
+}
+
+/*Transaction Listing - RFQs / Orders */
+
+.tx-block .label-date {
+    /*font-weight: bold;*/
+}
+
+.tx-block > .tx-row {
+    border-radius: 4px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    background-color: #b7d4e447;
+}
+
+.tx-block > .tx-row.date-row {
+    background-color: #b7d4e480;
+}
+.tx-block > .tx-row.gray-row {
+    background-color: #d3d3d3;
+    color:  #808080;
+}
+.tx-block > .tx-row.orange-row {
+    background-color: #ffe4b2;
+    color:  #808080;
+}
+.tx-row {
+    margin-top: 0.4em;
+}
+
+.subject-row {
+    /*font-weight: bold;*/
+}
+
+.client, .tx-number {
+    /*font-size: 1.2em;*/
+    font-weight: bold;
+
+}
+
+.col-value {
+    text-align: right;
+    padding-right: 2em;
+}
+
+.value {
+    /*font-weight: bold;*/
+}
+
+.currency-symbol {
+    color: #666;
+    margin-right: 2px;
+}
+
+.time {
+    color: #666;
+}
+
+/*.detail-wrapper {
+    padding-left: 3em;
+}
+*/
+/*.part {
+    font-size: 1.1em;
+    color: #66F;
+}
+*/
+.make {
+}
+
+.label-light {
+    background-color: #c8d0d3;
+    color: #464954;
+}
+
+.label.label-NIL {
+    color: #bb6223;
+}
+.label.label-TRD, .label.label-UNK {
+    background-color: #ff6666;
+}
+.label-light {
+    background-color: #c8d0d3;
+    color: #464954;
+}
+/*Modal Dialog*/
+
+a.disabled {
+    color: gray;
+    pointer-events: none;
+}
+
+.spinner-overlay {
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    z-index: 20;
+    top: 100px;
+    display: none;
+}
+
+.header-row {
+    margin-bottom: 6px;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Form */
+
+.form-container > .row {
+    margin-top: 4px;
+}
+
+/* Extra Large Model */
+@media (min-width: 768px) {
+  .modal-xl {
+    width: 90%;
+   max-width:1200px;
+  }
+}
+
+
+/* Progress Circle */
+
+.circle {
+    border-radius: 50%;
+    border-style: solid;
+    border-color: #666;
+    border-width: 2px;
+    width: 20px;
+    height: 20px;
+    overflow: hidden;
+    display: flex;
+}
+
+.segment {
+    float: left;
+    width: 100%;
+    background: #ffd966;
+    align-self: flex-end;
+}
+
+.segment0 {
+    height: 0%;
+}
+.segment10 {
+    height: 15%;
+}
+.segment20 {
+    height: 20%;
+}
+.segment25 {
+    height: 28%;
+}
+.segment30 {
+    height: 30%;
+}
+.segment40 {
+    height: 40%;
+}
+.segment50 {
+    height: 50%;
+}
+.segment70 {
+    height: 70%;
+}
+.segment80 {
+    height: 80%;
+}
+.segment100 {
+    height: 100%;
+}
+.segmentgreen {
+    height: 100%;
+    background-color: #b6d7a8;
+}
+.segmentgray {
+    height: 100%;
+    background-color: #bdbdbd;
+}
+.segmentorange {
+    height: 100%;
+    background-color: #ffe4b2;
+}
+.segment120 {
+    height: 100%;
+    background: #E9967A;
+}
+
+/* Experiments */
+
+/* End Experiments */
+
+
+.paginator{
+    display: inline-block;
+}
+
+.paginator > div {
+    display: inline-block;
+    padding-right: 1em;
+    padding-left: 1em;
+}
+
+.paginator > .paginator-link {
+    background-color: #f0f2f3;
+}
+.green-text{
+    color: green;
+}
+.warning-text{
+    color:  #FF8C00;
+}
+.danger-text{
+    color:  red;
+}
+.centered {
+    margin-top: 19px;
+}
+
+
+/*   Tooltip */
+/*.tooltip {
+    display:none;
+    position:absolute;
+    border:1px solid #333;
+    background-color: white;
+    border-radius:5px;
+    padding:10px;
+    color:#fff;
+    font-size:12px Arial;
+    cursor: pointer;
+}*/
+
+.masterTooltip{
+    cursor:pointer;
+}
+.mar-bottom{
+  margin-bottom: 2em;
+}
+.modal-content {
+  height: 100%;
+}
+/*.paginator a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+.paginator a.active {
+    background-color: #4CAF50;
+    color: white;
+    cursor: auto;
+}
+
+.paginator a:hover:not(.active) {background-color: #ddd;}
+@import url(http://fonts.googleapis.com/css?family=Roboto);
+*/
+
+
+
+/* Chat Messages */
+
+
+.comment-box{
+    padding-bottom: 25px;
+}
+
+.comment-img{
+    text-align: center;
+}
+.comment-img i{
+    font-size: 3em;
+    color: #00ced1;
+    
+}
+.comment-area{
+    display: inline-block;
+    padding: 0 0 0 17px;
+    vertical-align: top;  
+}
+.comment-area p {
+  background: #ebebeb none repeat scroll 0 0;
+  border-radius: 3px;
+  color: #646464;
+  font-size: 14px;
+  margin-top: 4px;
+  padding: 5px 10px 5px 12px;
+  width: 100%;
+}
+
+.sender-name {
+  color: #747474;
+  display: block;
+  font-size: 10px;
+  margin: 8px 0 0;
+}
+.time-date {
+  color: #747474;
+  display: block;
+  font-size: 12px;
+  margin: 8px 0 0;
+  float: right;
+  
+}
+.comments {
+  float: left;
+  padding: 30px 15px 0 25px;
+  width: 90%;
+}
+.type-msg {
+    border-top: 1px solid #c4c4c4;
+    position: relative;
+}
+
+.input-comment input {
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+  border: medium none;
+  color: #4c4c4c;
+  font-size: 15px;
+  min-height: 48px;
+  width: 100%;
+}
+.comment-send-btn {
+  background: #05728f none repeat scroll 0 0;
+  border: medium none;
+  border-radius: 50%;
+  color: #fff;
+  cursor: pointer;
+  font-size: 17px;
+  height: 33px;
+  position: absolute;
+  right: 0;
+  top: 11px;
+  width: 33px;
+}
+.response-error{
+  color: red;
+}
+.response-success{
+  color: green;
+}
+.empty-chat{
+  color: #c6d4e1;
+}
+.active-chat{
+  color: #337ab7;
+}
+#display_mail{
+  white-space:pre-wrap;
+}
+.rfq-note{
+    font-size: 2em;
+}
+.rfq-note-disable{
+    color: #c6d4e1;
+}
+
+.shortage_surplus{
+  background-color: #006400;
+}
+.shortage_low{
+  background-color: #32CD32;
+}
+.shortage_medium{
+  background-color: #f0ad4e;
+}
+.shortage_high{
+  background-color: #ff6666;
+}
+.shortage_very_high{
+  background-color: #FF0000;
+}

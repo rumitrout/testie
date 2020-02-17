@@ -1,0 +1,192 @@
+
+/*Specification Filters*/
+
+/* Create a custom checkbox */
+.label-container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: normal;
+  user-select: none;
+}
+
+.label-container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 21px;
+  border: 1px solid #eee;
+
+}
+.label-container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+.label-container input:checked ~ .checkmark {
+  background-color: #2196F3;
+}
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+.label-container input:checked ~ .checkmark:after {
+  display: block;
+}
+.label-container .checkmark:after {
+  left: 7px;
+  top: 3px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+/* Filter Styling */
+
+.spec-filters {
+    display: table;
+    min-width: 100%;
+    margin: 0 0 10px 0;
+    background: #ffffff;
+    border: 1px solid #d4d4d4;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    clear: both;
+}
+.spec-filters .filter-heading {
+    padding: 10px 15px 10px 15px;
+    margin: 0;
+    font-size: 14px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    border-bottom: 1px solid #d4d4d4;
+}
+.spec-filters .filters-content {
+    padding: 10px;
+}
+.filters-content h5 {
+    margin: 0 0 10px 0;
+    font-size: 13px;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+.filters-content h5 i{
+    margin-right: 4px;
+    color: #2980B9;
+}
+.filter-container {
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+    right: 0;
+}
+.select-holder {
+    position: relative;
+    display: inline-block;
+    padding: 0px 30px 0px 10px;
+    background-image: linear-gradient(-180deg, #ffffff 0%,#f5f5f5 100%);
+    border: 1px solid #d4d4d4;
+    font-size: 12px;
+    line-height: 14px;
+    color: #222;
+    text-align: left;
+    cursor: pointer;
+    border-radius: 2px;
+    transition: border 0.2s ease-in-out;
+    width: 90%;
+}
+
+.result-info{
+    display: block;
+    overflow: hidden;
+    padding: 7px 15px;
+    background: #f9f9f9;
+    border-top: 1px solid #d4d4d4;
+    border-radius: 0 0 2px 2px;
+    clear: both;
+}
+.basic-button {
+    position: relative;
+    display: inline-block;
+    padding: 7px 10px 7px 10px;
+    background: #ffffff;
+    background-image: linear-gradient(-180deg, #ffffff 0%,#f5f5f5 100%);
+    border: 1px solid #d4d4d4;
+    font-size: 12px;
+    color: #2980b9;
+    font-weight: 400;
+    line-height: 14px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 2px;
+    margin-bottom: 0.5em;
+}
+.basic-button:hover .basic-button:visited{
+  text-decoration: none;
+}
+.filters-content .filter-count{
+  color: #999999;
+}
+.modal-custom-content{
+  border-radius: 0px;
+}
+.custom-modal-footer {
+    clear: both;
+    background: #F5F5F5;
+    padding: 10px 15px;
+    text-align: center;
+}
+.para-list {
+    overflow-y: scroll;
+    padding: 0;
+    max-height: 240px; 
+}
+.center-modal {
+  position: absolute;
+  left: 28%;
+  top: 20%;
+}
+.remove-filter {
+    display: block;
+    padding: 5px 0px;
+    margin: 0 10px;
+    border-top: 1px solid #d4d4d4;
+}
+.no-filter {
+    display: none;
+}
+.remove-filter a {
+    display: inline-block;
+    background: #F5F5F5;
+    padding: 5px 6px 5px 7px;
+    font-size: 11px;
+    font-size: 1.1rem;
+    border-radius: 2px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+.remove-filter a:hover {
+  text-decoration: none;
+}
+ .remove-filter a i {
+    margin-left: 3px;
+    color: #999999;
+    font-size: 13px;
+  
+}
+

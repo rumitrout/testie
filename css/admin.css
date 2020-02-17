@@ -1,0 +1,47 @@
+/* Common */
+
+body {
+    font-family: Arial;
+}
+
+.helper-section
+{
+    background-color: #e0e0e0;
+    /*background-color: #acd67c;*/
+    margin-bottom: 2em;
+    border-radius: 8px;
+}
+
+.helper-section .panel
+{
+    background-color:  #f5f5f5;
+    /*background-color:  #ddefc9;*/
+}
+
+.container-expanse {
+    width: auto;
+    display: inline-block;
+}
+
+.table-expanse {
+    background-color: white;
+    white-space: nowrap;    
+}
+
+td.array-index {
+    padding-right: 12px; 
+    padding-left: 18px;
+}
+
+.badge-success {
+    background-color: #3c763d;
+}
+
+.badge-warning {
+    background-color: #db8c2b;
+}
+
+.badge-danger {
+    background-color: #a94442;
+}
+

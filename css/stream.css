@@ -1,0 +1,70 @@
+
+.block-upper{
+	background-color: rgb(18, 180, 191);
+	height: 300px;
+
+}
+
+.title-font{
+	font-family:  'Raleway';
+	color: rgb(250, 143, 84);
+	text-align: center;
+	line-height: 53px;
+	font-size: 38px;
+}
+
+  
+.btn-upload {
+  font-size: 25px;
+  line-height: 1.33;
+  border-radius: 6px;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  background:rgb(137, 191, 18);
+  color: white;
+  cursor: pointer;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+.sharp {
+  border-radius:0;
+}
+.benefit .icon{
+	color: white;
+}
+.shape{
+	background: rgb(250, 143, 84);
+    border-radius: 100px;
+    color: white;
+    height: 100px;
+    font-weight: bold;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+
+}
+.shape > div
+{
+    width: 100px;
+    text-align: center;
+}
+button:hover{
+   
+    text-decoration: none;
+    color: #ffffff;
+    background: #28A428;
+   
+
+}
+input[type="file"] {
+    display: none;
+}
+.navbar-custom {
+    background-color:rgb(18, 180, 191);
+    color:#ffffff;
+    border-radius:0;
+}
+.white-font{
+	color: white;
+}

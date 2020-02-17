@@ -1,0 +1,220 @@
+/****** Banners ******/
+.banner {
+  color: #fff;
+  height: 200px;
+  position: relative;
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.banner-title {
+  font-size: 25px;
+  display: block;
+  margin: 0;
+  margin-bottom: 5px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.banner-desc {
+  font-size: 17px;
+  opacity: 0.7;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+  filter: alpha(opacity=70);
+}
+.banner-lg .banner-title {
+  padding: 10px 20px;
+  font-size: 50px;
+}
+.banner-lg .banner-btn {
+  width: 100px;
+  height: 100px;
+  margin-left: -50px;
+  margin-top: -50px;
+}
+.banner-lg .banner-btn > span {
+  font-size: 17px;
+}
+.banner-lg .banner-btn > span:first-child {
+  margin-top: 32px;
+}
+.banner-sm .banner-title {
+  font-size: 18px;
+}
+.banner-sm .banner-desc {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+.banner-sm .banner-shop-now {
+  font-size: 11px;
+}
+.banner-xl .banner-title {
+  line-height: 1.1em;
+  font-size: 60px;
+}
+.banner-xl .banner-desc {
+  font-size: 30px;
+}
+.banner-xl .banner-shop-now {
+  font-size: 22px;
+}
+.banner-o-hid {
+  overflow: hidden;
+  z-index: 1;
+}
+.banner-sqr {
+  -webkit-border-radius: 0;
+  border-radius: 0;
+}
+.banner-link {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  display: block;
+  z-index: 3;
+}
+.banner-caption-top-left,
+.banner-caption-left,
+.banner-caption-top-right,
+.banner-caption-right,
+.banner-caption-bottom-left,
+.banner-caption-bottom-right,
+.banner-caption-center {
+  z-index: 2;
+  width: 50%;
+  position: absolute;
+}
+.banner-caption-top-left {
+  top: 5%;
+  left: 5%;
+}
+.banner-caption-top-right {
+  text-align: right;
+  top: 5%;
+  right: 5%;
+}
+.banner-caption-bottom-left {
+  bottom: 5%;
+  left: 5%;
+}
+.banner-caption-left,
+.banner-caption-right {
+  left: 5%;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.banner-caption-right {
+  left: auto;
+  right: 5%;
+}
+.banner-caption-center {
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.banner-img {
+  -webkit-filter: drop-shadow(1px 1px 3px rgba(0,0,0,0.2));
+  position: absolute;
+  width: 200px;
+}
+.banner-caption-dark {
+  color: #333;
+}
+.banner-shop-now {
+  margin-bottom: 0;
+  letter-spacing: 1px;
+  font-size: 12px;
+  font-weight: 700;
+  /*text-transform: uppercase;*/
+}
+.banner-shop-now > i {
+  margin-left: 1px;
+}
+.banner-category {
+  display: block;
+  background: white;
+  -webkit-border-radius: 5px;
+  border-radius: 0px;
+  border: 1px solid #acacac;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 5px;
+  text-decoration: none !important;
+  text-align: center;
+  color: #595959;
+ 
+  -webkit-transition: 0.15s;
+  -moz-transition: 0.15s;
+  -o-transition: 0.15s;
+  -ms-transition: 0.15s;
+  transition: 0.15s;
+}
+.banner-category:hover,
+.banner-category:active,
+.banner-category:focus,
+.banner-category:visited {
+  color: #595959;
+}
+.banner-category-icon {
+  display: block;
+  margin-bottom: 13px;
+  font-size: 28px;
+}
+
+.banner-category-img-wrapper {
+    height: 120px;
+    margin-bottom: 13px;
+}
+
+.banner-category-img {
+  width: 80px !important;
+  display: inline-block !important;
+}
+
+.banner-category-img-full {
+  margin-bottom: 13px;
+  width: 100%;
+}
+.banner-category-title {
+  /*text-transform: uppercase;*/
+  letter-spacing: 1px;
+  height: 1em;
+  font-size: 16px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+
+  /*margin-bottom: 3px;*/
+}
+.banner-category-brand {
+  /*text-transform: uppercase;*/
+  height: 1em;
+  font-size: 12px;
+  font-weight: bold;
+  /*margin-bottom: 3px;*/
+}
+.banner-category-desc {
+  margin-bottom: 0;
+  font-size: 11px;
+  color: white;
+  padding-bottom: 5px;
+}
+.banner-category-strip{
+  background-color: #4c5e5e;
+  color:white;
+}
+/****** End of Banners ******/
